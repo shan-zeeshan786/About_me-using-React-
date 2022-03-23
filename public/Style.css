@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(110, 99, 99);
+       color: white;
+}
+.Main--div{
+    background-color: rgb(80, 78, 78);
+    margin:10% auto;
+    /* border-style: solid;
+    border-color: black; */
+    width: 30%;
+    border-style: solid;
+    border-radius: 10px;
+    /* box-shadow:5px 5px rgb(167, 163, 163) ; */
+    
+    box-shadow:5px 5px #000 ;
+}
+
+.Info--div{
+    background-color: rgb(80, 78, 78);
+    border-style: solid;
+    border-color:  rgb(80, 78, 78);
+    border-radius: 10px;
+
+    text-align: center;
+}
+.Info--div>h3{
+    padding:0px;
+    margin-bottom: 0.25px;
+}
+.Info--div>img{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(37, 33, 33);
+ border-width: 0px;
+}
+.button1{
+    margin-right: 10px;
+    margin-left:10px;
+    width: 40%;
+    line-height: 200%;
+    border-style: solid;
+    border-color: black;
+   border-radius: 8px;
+   background-color: white;
+    /* padding: 0%; */
+    box-shadow:5px 5px #000 ;
+   
+
+}
+.button2{
+    margin-right:10px;
+    margin-left: 10px;
+    width: 40%;
+    line-height: 200%;
+    border-radius: 8px;
+    border-color: black;
+    color: white;
+    background-color: rgb(100, 159, 247);
+    box-shadow:5px 5px #000 ;
+
+}
+
+.About--div{
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: small;
+}
+.About--div>h3{
+    margin-bottom:2%
+}
+
+.Interest--div{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    font-size: small;
+}
+.Interest--div>h3{
+    margin-bottom:2%
+}
+
+.Footer--div{
+    margin-top: 20%;
+    height :40px;
+    background-color: #000;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 10px;   
+
+}
+.Footer--div>img{
+
+    border-style: solid;
+    border-color: white;
+   
+}
+
+.log{
+    margin-left: 10%;
+
+}
+
+
